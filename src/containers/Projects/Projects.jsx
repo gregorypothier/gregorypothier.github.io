@@ -15,7 +15,7 @@ class Projects extends Component {
               meta="2019"
               description="A full stack web app built with a React frontend and Python Flask
                   backend."
-              buttons={["/python", "/react", "/docker"]}
+              buttons={["python", "react", "docker"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -36,7 +36,7 @@ class Projects extends Component {
               meta="2017"
               description="A full stack Python and Splunk app that analyzes risk
               and automates IR."
-              buttons={["/python", "/splunk"]}
+              buttons={["python", "splunk"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -124,7 +124,7 @@ class Projects extends Component {
               meta="2012"
               description="A paid Android app ($.99) with over 30,000
               installs and review of 4.4/5 stars."
-              buttons={["/android", "/java", "/ps"]}
+              buttons={["android", "java", "ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -143,7 +143,7 @@ class Projects extends Component {
               image={["/referall.jpg"]}
               meta="2012"
               description="A website for people to connect and provide referrals."
-              buttons={["/php", "/sql", "/ps"]}
+              buttons={["php", "sql", "ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -162,7 +162,7 @@ class Projects extends Component {
               image={["/navyapp.jpg", "/navyapp2.jpg"]}
               meta="2011"
               description="An Android app with over 60,000 installs and review of 4.9/5 stars."
-              buttons={["/java", "/ps"]}
+              buttons={["java", "ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -181,7 +181,7 @@ class Projects extends Component {
               image={["/army1.jpg", "/army2.jpg"]}
               meta="2010"
               description="An Android app with over 60,000 installs and review of 4.7/5 stars."
-              buttons={["/java", "/ps"]}
+              buttons={["java", "ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
