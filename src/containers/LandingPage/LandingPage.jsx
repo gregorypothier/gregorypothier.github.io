@@ -8,7 +8,7 @@ class About extends Component {
       <div>
         <Grid centered columns={1}>
           <Grid.Column centered>
-            <Image centered src="/pothier/photo1.jpg" size="medium" circular />
+            <Image centered src="/photo1.jpg" size="medium" circular />
           </Grid.Column>
 
           <div className="ui fourteen wide tablet twelve wide computer fourteen wide mobile column centered">
