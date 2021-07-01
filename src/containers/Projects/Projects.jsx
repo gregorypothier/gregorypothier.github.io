@@ -11,11 +11,11 @@ class Projects extends Component {
             <Cards
               color="orange"
               label="News Web App"
-              image={["/pothier/news1.jpg"]}
+              image={["/news1.jpg"]}
               meta="2019"
               description="A full stack web app built with a React frontend and Python Flask
                   backend."
-              buttons={["/pothier/python", "/pothier/react", "/pothier/docker"]}
+              buttons={["/python", "/react", "/docker"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -24,15 +24,6 @@ class Projects extends Component {
                 <strong>Tech Stack:</strong>,
                 "The news app is a full stack application with the front end running on Node/react and the backend is a flask server serving a REST API. The app runs on docker and is deployed using ci/cd in AWS",
                 <br />,
-                <a
-                  href="https://pothier.io/news"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <u>
-                    <b>See it LIVE here.</b>
-                  </u>
-                </a>
               ]}
             />
           </div>
@@ -41,11 +32,11 @@ class Projects extends Component {
             <Cards
               color="red"
               label="Security Analytics"
-              image={["/pothier/risk_small.jpg", "/pothier/vulns.jpg"]}
+              image={["/risk_small.jpg", "/vulns.jpg"]}
               meta="2017"
               description="A full stack Python and Splunk app that analyzes risk
               and automates IR."
-              buttons={["/pothier/python", "/pothier/splunk"]}
+              buttons={["/python", "/splunk"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -96,10 +87,10 @@ class Projects extends Component {
             <Cards
               color="black"
               label="Deception Toolkit"
-              image={["/pothier/deception.jpg"]}
+              image={["/deception.jpg"]}
               meta="2016"
               description="Deception Toolkit leveraging python, Tanium and Splunk."
-              buttons={["/pothier/python", "/pothier/splunk"]}
+              buttons={["/python", "/splunk"]}
               githublink="true"
               livedemolink="true"
               modaldescription={[
@@ -129,11 +120,11 @@ class Projects extends Component {
             <Cards
               color="purple"
               label="AIO Ghost Hunter App"
-              image={["/pothier/ghost1.jpg", "/pothier/ghost2.jpg", "/pothier/ghost3.jpg"]}
+              image={["/ghost1.jpg", "/ghost2.jpg", "/ghost3.jpg"]}
               meta="2012"
               description="A paid Android app ($.99) with over 30,000
               installs and review of 4.4/5 stars."
-              buttons={["/pothier/android", "/pothier/java", "/pothier/ps"]}
+              buttons={["/android", "/java", "/ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -149,10 +140,10 @@ class Projects extends Component {
             <Cards
               color="black"
               label="ReferrAll Website"
-              image={["/pothier/referall.jpg"]}
+              image={["/referall.jpg"]}
               meta="2012"
               description="A website for people to connect and provide referrals."
-              buttons={["/pothier/php", "/pothier/sql", "/pothier/ps"]}
+              buttons={["/php", "/sql", "/ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -168,10 +159,10 @@ class Projects extends Component {
             <Cards
               color="blue"
               label="Navy App"
-              image={["/pothier/navyapp.jpg", "/pothier/navyapp2.jpg"]}
+              image={["/navyapp.jpg", "/navyapp2.jpg"]}
               meta="2011"
               description="An Android app with over 60,000 installs and review of 4.9/5 stars."
-              buttons={["/pothier/java", "/pothier/ps"]}
+              buttons={["/java", "/ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,
@@ -187,10 +178,10 @@ class Projects extends Component {
             <Cards
               color="green"
               label="Army App"
-              image={["/pothier/army1.jpg", "/pothier/army2.jpg"]}
+              image={["/army1.jpg", "/army2.jpg"]}
               meta="2010"
               description="An Android app with over 60,000 installs and review of 4.7/5 stars."
-              buttons={["/pothier/java", "/pothier/ps"]}
+              buttons={["/java", "/ps"]}
               githublink="true"
               modaldescription={[
                 <strong>Overview:</strong>,

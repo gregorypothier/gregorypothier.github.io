@@ -6,13 +6,13 @@ class ComputerMenu extends Component {
   render() {
     return (
       <Menu pointing secondary>
-        <Menu.Item as={NavLink} to="home" name="home" path="/pothier/home">
+        <Menu.Item as={NavLink} to="home" name="home" path="/home">
           <div className="navbar-items">Home</div>
         </Menu.Item>
-        <Menu.Item as={NavLink} to="about" name="about" path="/pothier/about">
+        <Menu.Item as={NavLink} to="about" name="about" path="/about">
           <div className="navbar-items">About Me</div>
         </Menu.Item>
-        <Menu.Item as={NavLink} to="projects" name="projects" path="/pothier/projects">
+        <Menu.Item as={NavLink} to="projects" name="projects" path="/projects">
           <div className="navbar-items">Projects</div>
         </Menu.Item>
 

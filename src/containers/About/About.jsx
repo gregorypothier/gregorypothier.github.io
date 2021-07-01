@@ -10,7 +10,7 @@ class About extends Component {
             <Segment raised style={{ background: "WhiteSmoke" }}>
               <div>
                 <Segment raised compact>
-                  <Image src="/pothier/linkedin.jpg" size="medium" rounded />
+                  <Image src="/linkedin.jpg" size="medium" rounded />
                 </Segment>
                 <Header size="large">Gregory Pothier</Header>
                 Hello! Welcome to my website, please make yourself at home and
@@ -48,17 +48,17 @@ class About extends Component {
               </Header>
               <Grid centered columns={3}>
                 <Grid.Column centered>
-                  <Image src="/pothier/dda.jpg" size="small" rounded />
+                  <Image src="/dda.jpg" size="small" rounded />
                   <div className="title-header">
                     Designing Data-Intensive Apps
                   </div>
                 </Grid.Column>
                 <Grid.Column centered>
-                  <Image src="/pothier/seriouspython.jpg" size="small" rounded />
+                  <Image src="/seriouspython.jpg" size="small" rounded />
                   <div className="title-header">Serious Python</div>
                 </Grid.Column>
                 <Grid.Column centered>
-                  <Image src="/pothier/securingdevops.jpg" size="small" rounded />
+                  <Image src="/securingdevops.jpg" size="small" rounded />
                   <div className="tile-artist">Securing DevOps</div>
                 </Grid.Column>
               </Grid>
@@ -69,7 +69,7 @@ class About extends Component {
               <Header size="medium" color="grey">
                 Currently Watching
               </Header>
-              <Image src="/pothier/rickmorty.jpg" size="small" rounded />
+              <Image src="/rickmorty.jpg" size="small" rounded />
               <div className="title-header">Rick & Morty</div>
             </Segment>
             <Segment raised style={{ background: "WhiteSmoke" }}>
@@ -78,11 +78,11 @@ class About extends Component {
               </Header>
               <Grid centered columns={2}>
                 <Grid.Column centered>
-                  <Image src="/pothier/oom.jpg" size="small" rounded />
+                  <Image src="/oom.jpg" size="small" rounded />
                   <div className="title-header">Origin of Muse</div>
                 </Grid.Column>
                 <Grid.Column centered>
-                  <Image src="/pothier/zimmer.jpg" size="small" rounded />
+                  <Image src="/zimmer.jpg" size="small" rounded />
                   <div className="tile-artist">Hans Zimmer</div>
                 </Grid.Column>
               </Grid>

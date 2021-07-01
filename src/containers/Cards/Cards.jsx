@@ -98,7 +98,6 @@ class Cards extends Component {
             {/* Map over the development buttons and display them */}
             {Object.entries(data.buttons).map((button_name, button_key) => {
               let name = `${button_name[1]}`;
-              let part = name.split("/")[2];
               return (
                 <Button
                   basic
@@ -114,7 +113,7 @@ class Cards extends Component {
                       alt="developed with {button_name[1]}"
                       height={10}
                     />
-                    <div>{part}</div>
+                    <div>{name}</div>
                   </Label>
                 </Button>
               );
