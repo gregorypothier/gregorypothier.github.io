@@ -90,7 +90,7 @@ class Projects extends Component {
               image={["/deception.jpg"]}
               meta="2016"
               description="Deception Toolkit leveraging python, Tanium and Splunk."
-              buttons={["/python", "/splunk"]}
+              buttons={["python", "splunk"]}
               githublink="true"
               livedemolink="true"
               modaldescription={[
